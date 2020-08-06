@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,28 @@
   to {
     transform: rotate(360deg);
   }
+} */
+html{
+  font-size: 62.5%;
+}
+:root{
+  --primary-color: #ce2041;
+  --color-background: #FFFFFF;
+  --border-color:#b1adad;
+  --color-background-secondary: #eae7e7;
+}
+h1,h2,h3,h4,h5,h6,p{
+  margin:0;
+}
+h1{
+  font-size: 2rem;
+}
+h2{
+  font-size: 1.8em;
+}
+h3{
+  font-size: 1.4em;
+}
+p{
+  font-size: 1.6rem;
 }
