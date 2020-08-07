@@ -4,9 +4,9 @@ import ItemProducts from '../ItemProducts'
 
 const SectionListItem = styled.section`
   padding: 0 20px;
-  margin: 0 0 60px;
+  margin: 0 0 100px;
   @media(min-width: 1024px){
-    margin: 0 auto 60px;
+    margin: 0 auto 100px;
     max-width: 900px;
   }
   @media(min-width: 768px){

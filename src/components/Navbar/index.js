@@ -9,7 +9,7 @@ const NavbarDiv = styled.nav`
   justify-content: space-around;
   color: var(--border-color);
   width: 100%;
-  height: 50px;
+  height: 80px;
   position: fixed;
   bottom: 0;
   @media(min-width: 1024px){
@@ -19,6 +19,7 @@ const NavbarDiv = styled.nav`
     font-size: 3em;
     &:hover{
       color: #FFF;
+      cursor: pointer;
     }
   }
 `

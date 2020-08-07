@@ -9,13 +9,17 @@ const AddCartDiv = styled.div`
   justify-content: space-around;
   color: var(--border-color);
   width: 100%;
-  height: 50px;
+  height: 80px;
   position: fixed;
   bottom: 0;
+  @media(min-width: 1024px){
+    border-radius: 0px;
+  }
   i{
-    font-size: 3em;
+    font-size: 2em;
+    color: #FFF;
     &:hover{
-      color: #FFF;
+      cursor: pointer;
     }
   }
 `

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 
 const ItemSlider = styled.div`
@@ -25,6 +26,9 @@ const ItemDrescription = styled.div`
   bottom: 0;
   width: 100%;
   padding: 5px 10px;
+  h3{
+    color: #000;
+  }
   p{
     font-size: 1.4em;
     font-weight: bold;
@@ -33,16 +37,19 @@ const ItemDrescription = styled.div`
 `
 
 const index = () => (
-  <ItemSlider>
-    <img
-      src='https://sevilla.abc.es/gurme/wp-content/uploads/sites/24/2010/08/hamburguesa-huevo-960x540.jpg'
-      alt='prueba'
-    />
-    <ItemDrescription>
-      <h3>Food Name Here</h3>
-      <p>$12.00</p>
-    </ItemDrescription>
-  </ItemSlider>
+  <Link to="/product">
+    <ItemSlider>
+      <img
+        src='https://sevilla.abc.es/gurme/wp-content/uploads/sites/24/2010/08/hamburguesa-huevo-960x540.jpg'
+        alt='prueba'
+      />
+      <ItemDrescription>
+        <h3>Food Name Here</h3>
+        <p>$12.00</p>
+      </ItemDrescription>
+    </ItemSlider>
+  </Link>
+
 )
 
 export default index
