@@ -26,7 +26,7 @@ const SearchDiv = styled.div`
   }
 `
 const InputSearch = styled.div`
-  width: 85%;
+  width: 80%;
   border: 1px solid var(--border-color);
   background-color: var(--color-background);
   border-radius: 5px;

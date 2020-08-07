@@ -3,7 +3,6 @@ import styled from 'styled-components';
 
 const AddCartDiv = styled.div`
   background-color: var(--primary-color);
-  border-radius: 0 0 25px 25px;
   display: flex;
   align-items:center;
   justify-content: space-around;
@@ -12,9 +11,7 @@ const AddCartDiv = styled.div`
   height: 80px;
   position: fixed;
   bottom: 0;
-  @media(min-width: 1024px){
-    border-radius: 0px;
-  }
+  z-index: 1;
   i{
     font-size: 2em;
     color: #FFF;
